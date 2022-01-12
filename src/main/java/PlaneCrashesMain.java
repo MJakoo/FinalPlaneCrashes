@@ -29,7 +29,7 @@ public class PlaneCrashesMain {
                 switch (Integer.parseInt(selectedOp)) {
                     case 1:
                         Crash.listCrashes();
-                        Crash.crashesMenuContent();
+                        Crash.crashesMenuContent()  ;
                         break;
                     case 2:
                         Location.listLocations();

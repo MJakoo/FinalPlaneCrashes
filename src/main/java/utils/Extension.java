@@ -167,10 +167,10 @@ public class Extension {
                         else if (Integer.parseInt(selectedColumn[i]) == 12) sb.append(", Ground: " + w.getGround());
                         else if (Integer.parseInt(selectedColumn[i]) == 13)
                             sb.append(", Survivors: " + w.getSurvivors());
-                        else if (Integer.parseInt(selectedColumn[i]) == 13)
+                        else if (Integer.parseInt(selectedColumn[i]) == 14)
                             sb.append(", SurvivalRate: " + w.getSurvivalRate());
-                        else if (Integer.parseInt(selectedColumn[i]) == 14) sb.append(", Summary: " + w.getSummary());
-                        else if (Integer.parseInt(selectedColumn[i]) == 15) sb.append(", ClustID: " + w.getClustID());
+                        else if (Integer.parseInt(selectedColumn[i]) == 15) sb.append(", Summary: " + w.getSummary());
+                        else if (Integer.parseInt(selectedColumn[i]) == 16) sb.append(", ClustID: " + w.getClustID());
                     }
                     System.out.println(sb);
                 });
